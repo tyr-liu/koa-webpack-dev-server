@@ -1,0 +1,35 @@
+{
+  "name": "koa-webpack-dev-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "set NODE_ENV=development&&node server",
+    "build": "set NODE_ENV=production&&webpack webpack.config.prod.js -p"
+  },
+  "keywords": [
+    "koa",
+    "webpack-dev-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "koa": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-proxy": "^0.6.0",
+    "koa-router": "^7.0.1",
+    "koa-view": "0.0.3"
+  }
+}
